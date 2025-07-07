@@ -192,7 +192,7 @@ const App = () => {
     }
 
     // Check file type
-    const allowedTypes = ['.h', '.cpp', '.sol', '.js', '.ts', '.py', '.rs', '.go', '.txt'];
+    const allowedTypes = ['.h', '.cpp'];
     const fileExtension = '.' + file.name.split('.').pop().toLowerCase();
 
     if (!allowedTypes.includes(fileExtension)) {
