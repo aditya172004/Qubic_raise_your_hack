@@ -50,7 +50,7 @@ git clone https://github.com/anubhavsultania/Qubic.git
 cd Qubic
 pip install -r requirements.txt
 uvicorn main:app --reload
-
+```
 ## 🌐 Usage
 
 1. Upload a Qubic smart contract `.cpp` file **or** paste a GitHub URL.
