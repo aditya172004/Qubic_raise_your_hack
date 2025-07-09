@@ -20,7 +20,7 @@ This is the **React-based frontend** for the **Qubic Smart Contract Auditor** �
 
 - **Framework**: React (with create react app)
 - **Styling**: Tailwind CSS
-- **Data Fetching**: Axios
+- **Data Fetching**: Fetch API
 - **Backend API**: FastAPI (auditing logic)
 - **Model Integration**: Gemini via LangChain (handled by backend)
 
@@ -33,4 +33,46 @@ This is the **React-based frontend** for the **Qubic Smart Contract Auditor** �
 ```bash
 git clone https://github.com/aditya172004/Qubic_raise_your_hack.git
 cd Qubic_raise_your_hack
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm start
+```
+### 4. Start the FASTAPI backend server
+```bash
+git clone https://github.com/anubhavsultania/Qubic.git
+cd Qubic
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+## 🌐 Usage
+
+1. Upload a Qubic smart contract `.cpp` file **or** paste a GitHub URL.
+2. Click **Analyze**.
+3. The app will display:
+   - Detected syntax issues  
+   - Violations of Qubic smart contract standards  
+   - Any AI-detected flaws or structural concerns  
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you'd like to modify.
+
+---
+
+## 📫 Contact
+
+Need help or have questions?
+
+👉 Open a GitHub Issue in this repository.
+
 
